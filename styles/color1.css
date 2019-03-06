@@ -1,0 +1,22 @@
+/* Main Primary color */
+
+.color-primary {
+  color: #1f679e;
+  color: rgba(31, 103, 158, 1);
+}
+.color-light {
+  color: #8abce3;
+  color: rgba(138, 188, 227, 1);
+}
+.color-secondary {
+  color: #4788ba;
+  color: rgba(71, 136, 186, 1);
+}
+.color-terniary {
+  color: #0c4570;
+  color: rgba(12, 69, 112, 1);
+}
+.color-dark {
+  color: #021d31;
+  color: rgba(2, 29, 49, 1);
+}
