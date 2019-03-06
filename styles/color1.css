@@ -1,5 +1,13 @@
 /* Main Primary color */
 
+:root {
+  --primary-color: rgba(31, 103, 158, 1);
+  --light-color: rgba(138, 188, 227, 1);
+  --secondary-color: rgba(71, 136, 186, 1);
+  --terniary-color: rgba(12, 69, 112, 1);
+  --dark-color: rgba(2, 29, 49, 1);
+}
+
 .color-primary {
   color: #1f679e;
   color: rgba(31, 103, 158, 1);
@@ -19,4 +27,48 @@
 .color-dark {
   color: #021d31;
   color: rgba(2, 29, 49, 1);
+}
+
+.btn-1 {
+  background: var(--primary-color);
+  color: var(--light-color);
+  box-shadow: 0 6px var(--terniary-color);
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+
+.btn-1:hover {
+  box-shadow: 0 4px var(--terniary-color);
+  top: 2px;
+}
+
+.btn-1:active {
+  box-shadow: 0 0 var(--terniary-color);
+  top: 6px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+caption,
+label {
+  color: var(--dark-color);
+}
+
+body {
+  background-color: var(--light-color);
+}
+
+a:hover {
+  color: var(--terniary-color);
+}
+
+.hero {
+  border: solid 2px var(--dark-color);
+  box-shadow: 0 5px 10px var(--primary-color);
 }

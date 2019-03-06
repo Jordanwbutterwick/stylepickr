@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:400,700"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link id="layout" rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/color1.css" />
     <title>stylepickr</title>
   </head>
   <body>
     <header>
       <nav>
-        <form action="" name="colorchange">
-          <label for="color1">Color 1</label>
-          <input type="radio" name="colors" id="color1" />
-          <label for="color2">Color 2</label>
-          <input type="radio" name="colors" id="color2" />
-          <label for="color3">Color 3</label>
-          <input type="radio" name="colors" id="color3" />
-          <label for="color4">Color 4</label>
-          <input type="radio" name="colors" id="color4" />
-          <label for="color5">Color 5</label>
-          <input type="radio" name="colors" id="color5" />
-          <input type="submit" value="Change Color" name="submit" />
-        </form>
+        <div class="nav-bar">
+          <form action="" name="colorchange" class="nav-form">
+            <div class="form-item">
+              <label for="color1">Color 1</label> <input type="radio" name="colors" id="color1" />
+            </div>
+            <div class="form-item">
+              <label for="color2">Color 2</label> <input type="radio" name="colors" id="color2" />
+            </div>
+            <div class="form-item">
+              <label for="color3">Color 3</label> <input type="radio" name="colors" id="color3" />
+            </div>
+            <div class="form-item">
+              <label for="color4">Color 4</label> <input type="radio" name="colors" id="color4" />
+            </div>
+            <div class="form-item">
+              <label for="color5">Color 5</label> <input type="radio" name="colors" id="color5" />
+            </div>
+            <input type="submit" value="Change Color" name="submit" />
+          </form>
+        </div>
       </nav>
     </header>
     <main>
@@ -35,7 +49,7 @@
             similique libero nulla inventore nisi labore iusto eligendi aliquid atque assumenda
             voluptatem hic tempora optio sint suscipit quae ex?
           </p>
-          <button>Press Here</button>
+          <button class="btn btn-1">Press Here</button>
         </div>
         <div class="row">
           <div class="card">
@@ -110,5 +124,6 @@
         <li><a href="htttps://donate.jordanwb.design">Donate</a></li>
       </ul>
     </footer>
+    <script src="./scripts/scripts.js"></script>
   </body>
 </html>
