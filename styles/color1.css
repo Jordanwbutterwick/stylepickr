@@ -6,6 +6,9 @@
   --secondary-color: rgba(71, 136, 186, 1);
   --terniary-color: rgba(12, 69, 112, 1);
   --dark-color: rgba(2, 29, 49, 1);
+  --focus-color: rgba(158, 31, 48, 1);
+  --focus-color-text: rgb(227, 138, 145);
+  --focus-color-terniary: rgb(112, 12, 25);
 }
 
 .color-primary {
@@ -45,6 +48,44 @@
 
 .btn-1:active {
   box-shadow: 0 0 var(--terniary-color);
+  top: 6px;
+}
+
+.btn-2 {
+  background: var(--secondary-color);
+  color: var(--dark-color);
+  box-shadow: 0 6px var(--terniary-color);
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+
+.btn-2:hover {
+  box-shadow: 0 4px var(--terniary-color);
+  top: 2px;
+}
+
+.btn-2:active {
+  box-shadow: 0 0 var(--terniary-color);
+  top: 6px;
+}
+
+.btn-3 {
+  background: var(--focus-color);
+  color: var(--focus-color-text);
+  box-shadow: 0 6px var(--focus-color-terniary);
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+
+.btn-3:hover {
+  box-shadow: 0 4px var(--focus-color-terniary);
+  top: 2px;
+}
+
+.btn-3:active {
+  box-shadow: 0 0 var(--focus-color-terniary);
   top: 6px;
 }
 
