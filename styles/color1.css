@@ -113,3 +113,16 @@ a:hover {
   border: solid 2px var(--dark-color);
   box-shadow: 0 5px 10px var(--primary-color);
 }
+
+.card {
+  border: solid 2px var(--dark-color);
+  box-shadow: 0 5px 10px var(--primary-color);
+}
+
+nav {
+  background-color: var(--dark-color);
+}
+
+nav form label {
+  color: var(--light-color);
+}

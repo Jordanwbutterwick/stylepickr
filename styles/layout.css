@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -67,14 +71,18 @@ ul {
 .content {
   max-width: 960px;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-flow: column wrap;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .hero {
   max-width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -83,17 +91,61 @@ ul {
   padding: 50px;
 }
 
+.row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.card {
+  max-width: 300px;
+  max-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 25px;
+  padding: 45px;
+  margin-bottom: 150px;
+}
+
+.card2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
 .nav-bar {
   width: 90vw;
   margin: auto;
-  height: 50px;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .nav-form {
   width: 100%;
-  height: 50px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -103,6 +155,8 @@ ul {
 .footer-nav {
   height: 150px;
   width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -114,6 +168,8 @@ ul {
 
 .palette {
   width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-evenly;
   align-content: center;
