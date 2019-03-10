@@ -7,7 +7,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Playfair Display";
+  font-family: "Lora";
   font-weight: 400;
 }
 
@@ -163,8 +163,7 @@ ul {
   align-items: center;
 }
 
-@media (max-width: 600px) {
-}
+@media (max-width: 600px) {}
 
 .palette {
   width: 1000px;
@@ -179,6 +178,11 @@ ul {
 .square {
   width: 150px;
   height: 150px;
+}
+
+
+.buttons {
+  margin: 50px;
 }
 
 /* taken from https://tympanus.net/Development/CreativeButtons/*/

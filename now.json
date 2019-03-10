@@ -1,6 +1,8 @@
 {
   "name": "Stylepickr",
   "version": 2,
-  "builds": [{ "use": "@now/static" }],
-  "alias": "stylepickr.jordanwb.design"
+  "builds": [{
+    "use": "@now/static"
+  }],
+  "alias": ["stylepickr.jordanwb.design", "www.stylepickr.jordanwb.design"]
 }
