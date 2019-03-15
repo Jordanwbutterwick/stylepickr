@@ -1,11 +1,11 @@
 /* Main Primary color */
 
 :root {
-  --primary-color: rgba(31, 103, 158, 1);
-  --light-color: rgba(138, 188, 227, 1);
-  --secondary-color: rgba(71, 136, 186, 1);
-  --terniary-color: rgba(12, 69, 112, 1);
-  --dark-color: rgba(2, 29, 49, 1);
+  --primary-color: rgb(31, 158, 37);
+  --light-color: rgb(138, 227, 142);
+  --secondary-color: rgb(71, 186, 81);
+  --terniary-color: rgb(12, 112, 20);
+  --dark-color: rgb(2, 49, 6);
   --focus-color: rgba(158, 31, 48, 1);
   --focus-color-text: rgb(227, 138, 145);
   --focus-color-terniary: rgb(112, 12, 25);
