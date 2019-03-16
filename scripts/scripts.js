@@ -1,16 +1,23 @@
-function changeColor(colorPalette) {
-  function getColorVal(colorChoiceVal) {
-    var colorChoice = document.getElementById("colorChange").setAttribute("value", colorChoiceVal);
-    var colorChoiceVal = colorChoice.value;
-  }
-  colorPalette.document.getElementById("color").setAttribute("href", currentColor);
-  var currentColor = "./styles/color" + colorChoiceVal + ".css";
-  console.log(colorChoiceVal);
-  if ((colorChoiceVal = "undefined")) {
-    colorChoiceVal = 1;
-  } else {
-    colorChoiceVal = colorChoice.value;
-  }
+var currentStyle = document.colorchange;
+var form = document.getElementById('colorChange');
+
+let colorOptions = [
+  "/styles/color1.css",
+  "/styles/color2.css",
+  "/styles/color3.css",
+  "/styles/color4.css",
+  "/styles/color5.css"
+];
+
+form.addEventListener('submit', function changeColor() {
+  var newColor = colorOptions[form.value];
+  console.log(newColor);
+  currentStyle.preventDefault();
+  currentStyle.setAttribute('href', newColor);
+});
+
+if (currentStyle.value != 1) {
+  console.log(currentStyle.color1.value)
+} else {
+  console.log('you suck')
 }
-colorChoice.preventDefault;
-colorChoice.addEventListener("submit", changeColor());
