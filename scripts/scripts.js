@@ -1,5 +1,6 @@
 var currentStyle = document.colorchange;
-var form = document.getElementById('colorChange');
+var form = document.getElementById("colorChange");
+var i = form.value;
 
 let colorOptions = [
   "/styles/color1.css",
@@ -9,15 +10,9 @@ let colorOptions = [
   "/styles/color5.css"
 ];
 
-form.addEventListener('submit', function changeColor() {
-  var newColor = colorOptions[form.value];
+form.addEventListener("submit", function changeColor() {
+  var newColor = colorOptions[i];
   console.log(newColor);
-  currentStyle.preventDefault();
-  currentStyle.setAttribute('href', newColor);
+  event.preventDefault();
+  currentStyle.setAttribute("href", newColor);
 });
-
-if (currentStyle.value != 1) {
-  console.log(currentStyle.color1.value)
-} else {
-  console.log('you suck')
-}
